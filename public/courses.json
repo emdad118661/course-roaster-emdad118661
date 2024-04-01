@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "cover_img": "https://i.ibb.co/kJfXZg9/1687.jpg",
+      "course_title": "Introduction to Web Development",
+      "course_details": "Learn the basics of HTML, CSS, and JavaScript to build your first website.",
+      "price": 49.99,
+      "credit_hour": 3
+    },
+    {
+      "id": 2,
+      "cover_img": "https://i.ibb.co/P1W5WyW/1686548640655.jpg",
+      "course_title": "Python Programming for Beginners",
+      "course_details": "Get started with Python programming language from scratch with hands-on exercises.",
+      "price": 59.99,
+      "credit_hour": 4
+    },
+    {
+      "id": 3,
+      "cover_img": "https://i.ibb.co/VC0jcHp/9469573.jpg",
+      "course_title": "Data Science Fundamentals",
+      "course_details": "Explore data analysis, visualization, and machine learning concepts with Python.",
+      "price": 79.99,
+      "credit_hour": 5
+    },
+    {
+      "id": 4,
+      "cover_img": "https://i.ibb.co/2gny1RM/618ee5edafb18668e486bf98-banner-1-1024x497.jpg",
+      "course_title": "JavaScript Frameworks Mastery",
+      "course_details": "Deep dive into popular JavaScript frameworks like React, Angular, and Vue.js.",
+      "price": 89.99,
+      "credit_hour": 6
+    },
+    {
+      "id": 5,
+      "cover_img": "https://i.ibb.co/Bqjwxv3/6059426ad2190b56a6baa38b-react-native-banner-min.png",
+      "course_title": "Mobile App Development with React Native",
+      "course_details": "Build cross-platform mobile apps using React Native framework.",
+      "price": 99.99,
+      "credit_hour": 7
+    },
+    {
+      "id": 6,
+      "cover_img": "https://i.ibb.co/bR3H7MR/d73b2456f376910fc787bff2aa8a5100.jpg",
+      "course_title": "Introduction to Machine Learning",
+      "course_details": "Learn the fundamentals of machine learning algorithms and techniques.",
+      "price": 69.99,
+      "credit_hour": 5
+    },
+    {
+      "id": 7,
+      "cover_img": "https://i.ibb.co/fdrZzrD/1686874904973.png",
+      "course_title": "Cybersecurity Essentials",
+      "course_details": "Understand the basics of cybersecurity, threats, and protective measures.",
+      "price": 79.99,
+      "credit_hour": 5
+    },
+    {
+      "id": 8,
+      "cover_img": "https://i.ibb.co/HqFDkJs/ux-ui-web-banner-vector.jpg",
+      "course_title": "UX/UI Design Fundamentals",
+      "course_details": "Master the principles of user experience and user interface design.",
+      "price": 69.99,
+      "credit_hour": 4
+    },
+    {
+      "id": 9,
+      "cover_img": "https://i.ibb.co/097mVKN/artificial-intelligence-concept-banner-design-vector-26579236.jpg",
+      "course_title": "Artificial Intelligence Basics",
+      "course_details": "Explore the concepts of artificial intelligence, neural networks, and deep learning.",
+      "price": 89.99,
+      "credit_hour": 6
+    }
+  ]
+  
