@@ -13,42 +13,51 @@ function App() {
   
 
   
-  const handleSelect = (time, currentPrice, course) =>{
+  const handleSelect = (time, currentPrice, course, id) =>{
 
    //cards name list
-   if(course == cards){
-    alert()
-   }
-     const newCards = [...cards, course];
-     setCards(newCards);
+  
+  if(cards.some(card => card.id === id)){
+    const newCards = [...cards];
+    setCards(newCards);
+    alert('You have already enrolled this course');
+  }
+  else{
 
-     
-   
+  const newCards = [...cards, course];
+  setCards(newCards);
 
+  //credit count
+
+  
+  const newCredit = credit + time;
+  if(newCredit <= 20){
+  setCredit(newCredit);
+  }
+ 
+
+  //price
+ const newPrice = price + currentPrice;
+ setPrice(newPrice);
+
+ //remaining hour
+ 
+ const remingHour = 20 - newCredit;
+ if(remingHour >= 0){
+ setRemingHour(remingHour);
+ }
+ else{
+  alert('Credit limit exceeded. Credit hour cannot be more than 20 hours. Please finish your enrolled courses first.');
+ }
+  }
+
+  // const removeCard = cards.filter(card => card.id !== id);
+  // setCards(removeCard);
     
-   //credit count
-    const newCredit = credit + time;
-    if(newCredit <= 20){
-    setCredit(newCredit);
-    }
    
 
-    //price
-   const newPrice = price + currentPrice;
-   setPrice(newPrice);
-
-   //remaining hour
    
-   const remingHour = 20 - newCredit;
-   if(remingHour >= 0){
-   setRemingHour(remingHour);
-   }
-   else{
-    alert('credit limit exceeded. Credit hour cannot be more than 20 hours.');
-   }
-
-   
-
+  
    }
 
   return (
