@@ -1,4 +1,4 @@
-import React from 'react';
+
 import PropTypes from 'prop-types';
 import Card from '../Card/Card';
 
@@ -25,7 +25,10 @@ const Cards = ({cards, credit, price, remingHour}) => {
 };
 
 Cards.propTypes = {
-    cards: PropTypes.array
+    cards: PropTypes.array,
+    credit: PropTypes.number,
+    price: PropTypes.number,
+    remingHour: PropTypes.number
 };
 
 export default Cards;

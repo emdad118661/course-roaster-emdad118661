@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
 const Card = ({card}) => {
@@ -11,7 +10,7 @@ const Card = ({card}) => {
 };
 
 Card.propTypes = {
-    
+    card: PropTypes.array
     
 };
 
